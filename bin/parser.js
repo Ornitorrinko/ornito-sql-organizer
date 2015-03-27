@@ -28,7 +28,7 @@
 
 		io.write(out
 			, content.join("\n\n")
-			, {enconding: "utf-8"}
+			, {encoding: "utf-8"}
 			, function(){
 				console.log('Bundle created on:', out);
 			});
